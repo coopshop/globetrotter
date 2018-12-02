@@ -23,7 +23,7 @@ const styles = theme => ({
     height: "65px",
     display: "flex",
     justifyContent: "space-between",
-    padding: "0 85px" // side-padding
+    padding: "0 85px",
   },
   grid: {
     display: "flex",
@@ -40,7 +40,7 @@ const styles = theme => ({
   title: {
     display: "none",
     [theme.breakpoints.up("sm")]: {
-      display: "block"
+      display: "block",
     }
   }
 });
