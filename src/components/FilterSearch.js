@@ -27,10 +27,10 @@ const styles = theme => ({
   },
   grid: {
     display: "flex",
-    alignItems: "center"
+    alignItems: "center",
   },
   root: {
-    width: "100%"
+    width: "100%",
   },
   buttons: {
     margin: "0 0px",
