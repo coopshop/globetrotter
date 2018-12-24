@@ -95,6 +95,7 @@ const styles = theme => ({
     fontWeight: 600
   }
 });
+
 class Header extends React.Component {
   render() {
     const { classes } = this.props;
@@ -137,7 +138,7 @@ class Header extends React.Component {
       </div>
     );
   }
-}
+};
 
 Header.propTypes = {
   classes: PropTypes.object.isRequired

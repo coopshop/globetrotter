@@ -44,7 +44,8 @@ const styles = theme => ({
     }
   }
 });
-class FilterSearch extends React.Component {
+
+export default class FilterSearch extends React.Component {
   render() {
     const { classes } = this.props;
     return (
@@ -70,6 +71,4 @@ class FilterSearch extends React.Component {
       </div>
     );
   }
-}
-
-export default FilterSearch;
+};
